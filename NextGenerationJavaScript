@@ -93,3 +93,14 @@ const newPerson ={
 } 
 console.log(newPerson);
 
+
+/* rest operator */
+
+const filter =(...args) =>{
+ return args.filter(el => el ===1 || el ===2)
+}
+
+console.log(filter(1,2,3));
+
+output : [1]
+ 
