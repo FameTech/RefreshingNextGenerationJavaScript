@@ -68,3 +68,28 @@ const myPerson =new Person()  //usese
       myPerson.call()
 console.log(myPerson.name) ()
 
+
+
+
+5 /*The Spread & Rest Operator*/
+
+const numbers =[1,2,3]
+const newNumbers =[...numbers,4] ;
+console.log(newNumbers);
+
+const newNumbers1 =[numbers,4] ;
+console.log(newNumbers1);
+
+
+const Person ={
+  name : 'Faheem'
+  
+}
+
+const newPerson ={
+  ...Person,
+    age:28
+  
+} 
+console.log(newPerson);
+
