@@ -1,0 +1,70 @@
+
+/* let and const*/
+
+let myName='Faheem';
+console.log(myName);
+myName='Khan';
+console.log(myName);
+
+/* Arrow function and normal function */
+/*syntax
+
+function myFun(){
+
+}
+
+const myFun=(name)=>{
+  console.log(name);
+  
+} */
+
+function printMyname(name){
+  console.log(name);
+  
+}
+
+/* Arrow function*/
+
+const printMyname1=(name,age)=>{
+  console.log(name,age);
+  
+}
+printMyname1('Faheem','28');
+
+
+
+const multiply=(number)=>{
+  return number*3;
+  
+}
+
+const multiply1=number=> number*3;
+  
+
+
+console.log(multiply1(2));
+
+
+
+3) Export and import
+--------------------------
+
+ Two type of Export
+
+ 1)default export
+   import person from './person.js'
+ named export
+  import {smth} from './utility.js'
+
+4)----class----------
+
+  
+class Person{
+        name='Faheem'    //properties
+        Call =()=> {...} // method
+}
+
+const myPerson =new Person()  //usese  
+      myPerson.call()
+console.log(myPerson.name) ()
+
